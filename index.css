@@ -1,0 +1,221 @@
+.top{
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  background-image: linear-gradient(45deg, red, lightgreen,yellow);
+}
+.second{
+  margin-top: 1px;
+  margin-bottom: 4px;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 80px;
+  border: 5px solid red;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+.third{
+  font-weight: bolder;
+  position: relative;
+  display: grid;
+  height: 170px;
+  width: 100%;
+  border: 4px solid black;
+  border-radius: 15px;
+  background-color: lightgreen;
+}
+.f1{
+  background-color: cyan;
+  position: absolute;
+  text-align: center;
+  width: 30%;
+  height: 80px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+.f2{
+  background-color: cyan;
+  position: absolute;
+  margin-bottom: 100px;
+  margin-left: 510px;
+  text-align: center;
+  width: 30%;
+  height: 80px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+.f3{
+  background-color: cyan;
+  margin-left: 69%;
+  position: absolute;
+  text-align: center;
+  width: 30%;
+  height: 80px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+.f4{
+  background-color: cyan;
+  margin-left: 34%;
+  margin-top: 85px;
+  position: absolute;
+  text-align: center;
+  width: 30%;
+  height: 80px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+.forth{
+  text-decoration: underline red;
+  font-weight: bolder;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  height: 35px;
+  background-image: linear-gradient(45deg,tomato,yellow,tomato);
+}
+.fifth{
+  font-weight: bolder;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-image: radial-gradient(blue,lightgreen);
+  border: 3px solid black;
+}
+.fif1{
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 15%;
+  position: absolute;
+  height: 95px;
+  text-decoration: underline;
+  background-color: yellow;
+  color: chocolate;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+}
+.fif2{
+  margin-top: 50px;
+  margin-left: 30%;
+  width: 15%;
+  position: absolute;
+  height: 95px;
+  text-decoration: underline;
+  background-color: yellow;
+  color: chocolate;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+}
+.fif3{
+  margin-top: 50px;
+  margin-left:50%;
+  width: 15%;
+  position: absolute;
+  height: 95px;
+  text-decoration: underline;
+  background-color: yellow;
+  color: chocolate;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+}
+.fif4{
+  margin-top: 50px;
+  margin-left:70%;
+  width: 15%;
+  position: absolute;
+  height: 95px;
+  text-decoration: underline;
+  background-color: yellow;
+  color: chocolate;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+}
+.sixth{
+  word-spacing:10px;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  height: 35px;
+  background-color: red;
+}
+.seventh{
+  position: relative;
+}
+.s1{
+  word-spacing: 8px;
+  position: absolute;
+  text-align: center;
+  background-color: rgb(51, 187, 51);
+  color: white;
+  height: 60px;
+  width: 29%;
+  font-size: 22px;
+}
+.s2{
+  margin-top: 0%;
+  margin-left: 31%;
+  position: absolute;
+  background-color: rgb(111, 97, 194);
+  color: white;
+  height: 60px;
+  width: 29%;
+  font-size: 22px;
+  word-spacing: 5px;
+}
+.s3{
+  margin-top: 0%;
+  margin-left: 62%;
+  position: absolute;
+  background-color: royalblue;
+  color: white;
+  height: 60px;
+  width: 30%;
+  font-size: 18px;
+  word-spacing: 10px;
+}
+.s4{
+  margin-top: 0%;
+  margin-left: 93%;
+  position: absolute;
+  background-color: rgb(54, 45, 45);
+  color: white;
+  height: 300px;
+  width: 7%;
+  font-size: 15px;
+}
+.s5{
+  font-size: 20px;
+  margin-top: 75px;
+  position: absolute;
+  width: 92%;
+  height: 225px;
+  background-color: rgb(224, 135, 71);
+  color: white;
+}
+.last{
+  position: absolute;
+  margin-top: 310px;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  background-color: skyblue;
+}
+/* this code is for creating variable sized columns and rows */
+/* display:grid;
+grid-template-rows: 60 px 100 px 200 px 60 px;
+grid-template-columns: repeat(3,1fr) 100 px;
+grid-gap:20px;
+ */
